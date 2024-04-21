@@ -71,7 +71,7 @@ class SpineApp implements Spine.SpineCanvasApp {
     }
   }
 
-  update(canvas: Spine.SpineCanvas, delta: number): void {
+  update(_canvas: Spine.SpineCanvas, delta: number): void {
     if (!(this.skeleton instanceof Spine.Skeleton)) return
     if (!(this.state instanceof Spine.AnimationState)) return
 
@@ -92,7 +92,7 @@ class SpineApp implements Spine.SpineCanvasApp {
     renderer.end()
   }
 
-  error(canvas: Spine.SpineCanvas, errors: Spine.StringMap<string>): void {
+  error(_canvas: Spine.SpineCanvas, errors: Spine.StringMap<string>): void {
     console.error('Error!')
     console.error(errors)
   }
