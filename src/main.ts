@@ -2,8 +2,6 @@ import './reset.css'
 import * as Spine from '@esotericsoftware/spine-webgl'
 import GUI from 'lil-gui'
 
-const isDev = import.meta.env.MODE === 'development'
-
 /**
  * https://github.com/EsotericSoftware/spine-runtimes/blob/4.2/spine-ts/spine-webgl/example/mix-and-match.html
  */
@@ -109,8 +107,6 @@ app.appendChild(canvas)
 const gui = new GUI()
 
 new Spine.SpineCanvas(canvas, {
-  pathPrefix: isDev
-    ? 'assets/spine-data/'
-    : 'pub_web_spine4.2-physics_test/assets/spine-data/',
+  pathPrefix: 'assets/spine-data/',
   app: new SpineApp()
 })
