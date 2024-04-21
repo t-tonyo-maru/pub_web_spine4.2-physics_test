@@ -111,6 +111,6 @@ const gui = new GUI()
 new Spine.SpineCanvas(canvas, {
   pathPrefix: isDev
     ? 'assets/spine-data/'
-    : 'https://t-tonyo-maru.github.io/pub_web_spine4.2-physics_test/assets/spine-data/',
+    : 'pub_web_spine4.2-physics_test/assets/spine-data/',
   app: new SpineApp()
 })
