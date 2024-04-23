@@ -8,6 +8,14 @@ This repository is test of Spine Physics
 
 https://t-tonyo-maru.github.io/pub_web_spine4.2-physics_test/
 
+## Main typeScript file
+
+[src/main.ts](https://github.com/t-tonyo-maru/pub_web_spine4.2-physics_test/blob/main/src/main.ts)
+
+## Explanatory article (Ja)
+
+[Spine v4.2 で登場した物理演算に触れてみる | Zenn](https://zenn.dev/t_tonyo_maru/articles/02531d38631062)
+
 ## Links
 
 - [Spine](https://ja.esotericsoftware.com/)
